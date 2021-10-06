@@ -1,1 +1,44 @@
 
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>outagesio</Name>
+  <Repository>peachych/outagesio</Repository>
+  <Registry>https://hub.docker.com/r/peachych/outagesio</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support></Support>
+  <Project>https://www.outagesio.com/</Project>
+  <Overview>Monitors the Internet service with alerts, facts and proof of connection issues causing downtime and slow speeds.</Overview>
+  <Category>Tools:Utilities Status:Stable</Category>
+  <WebUI/>
+  <TemplateURL>https://raw.githubusercontent.com/peachy-ch/docker-templates/main/outagesio.xml</TemplateURL>
+  <Icon>https://www.outagesio.com/wp-content/uploads/2021/07/outagesIOcom-03-logo-1.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText>Donate</DonateText>
+  <DonateLink></DonateLink>
+  <Description></Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="USERNAME" Target="USERNAME" Default="" Mode="" Description="USERNAME" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PASSWORD" Target="PASSWORD" Default="" Mode="" Description="PASSWORD" Type="Variable" Display="advanced" Required="true" Mask="true">100</Config>
