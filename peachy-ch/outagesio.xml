@@ -41,5 +41,4 @@
   <Labels/>
   <Config Name="USERNAME" Target="USERNAME" Default="" Mode="" Description="USERNAME" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
   <Config Name="PASSWORD" Target="PASSWORD" Default="" Mode="" Description="PASSWORD" Type="Variable" Display="advanced" Required="true" Mask="true">100</Config>
-
-<xml/>
+</Containers>
