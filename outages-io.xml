@@ -39,6 +39,6 @@
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="Username" Target="USERNAME" Default="" Mode="" Description="The first of the outages.io credentials" Type="Variable" Display="always" Required="true" Mask="false">6x1T8uNLDy</Config>
-  <Config Name="Password" Target="PASSWORD" Default="" Mode="" Description="The second of the outages.io credentials" Type="Variable" Display="always" Required="true" Mask="false">ElFWMfKRjdCiu3A0mLBorxOk24zPHwXQJZ6g8bGh</Config>
+  <Config Name="Username" Target="USERNAME" Default="" Mode="" Description="The first of the outages.io credentials" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Password" Target="PASSWORD" Default="" Mode="" Description="The second of the outages.io credentials" Type="Variable" Display="always" Required="true" Mask="false"></Config>
 </Container>
