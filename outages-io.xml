@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project/>
-  <Overview>Software that monitors the Internet service with alerts, facts and proof of connection issues causing downtime and slow speeds.</Overview>
+  <Overview>Software that monitors the Internet service with alerts, facts and proof of connection issues causing downtime and slow speeds. Needs an account at https://www.outagesio.com</Overview>
   <Category/>
   <WebUI/>
   <TemplateURL/>
