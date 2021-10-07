@@ -1,44 +1,44 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>outagesio</Name>
+  <Name>outages.io</Name>
   <Repository>peachych/outagesio</Repository>
   <Registry>https://hub.docker.com/r/peachych/outagesio</Registry>
-  <Network>bridge</Network>
+  <Network>br0</Network>
   <MyIP/>
-  <Shell>bash</Shell>
+  <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support></Support>
-  <Project>https://www.outagesio.com/</Project>
-  <Overview>Monitors the Internet service with alerts, facts and proof of connection issues causing downtime and slow speeds.</Overview>
-  <Category>Tools:Utilities Status:Stable</Category>
+  <Support/>
+  <Project/>
+  <Overview>Our free software monitors the Internet service with alerts, facts and proof of connection issues causing downtime and slow speeds.</Overview>
+  <Category/>
   <WebUI/>
-  <TemplateURL>https://raw.githubusercontent.com/peachy-ch/docker-templates/main/outagesio.xml</TemplateURL>
+  <TemplateURL/>
   <Icon>https://www.outagesio.com/wp-content/uploads/2021/07/outagesIOcom-03-logo-1.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DonateText>Donate</DonateText>
-  <DonateLink></DonateLink>
-  <Description></Description>
+  <DateInstalled>1633542195</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Our free software monitors the Internet service with alerts, facts and proof of connection issues causing downtime and slow speeds.</Description>
   <Networking>
-    <Mode>bridge</Mode>
+    <Mode>br0</Mode>
     <Publish/>
   </Networking>
-  <Data>
-  </Data>
+  <Data/>
   <Environment>
     <Variable>
-      <Value>99</Value>
-      <Name>PUID</Name>
+      <Value>6x1T8uNLDy</Value>
+      <Name>USERNAME</Name>
       <Mode/>
     </Variable>
     <Variable>
-      <Value>100</Value>
-      <Name>PGID</Name>
+      <Value>ElFWMfKRjdCiu3A0mLBorxOk24zPHwXQJZ6g8bGh</Value>
+      <Name>PASSWORD</Name>
       <Mode/>
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="USERNAME" Target="USERNAME" Default="" Mode="" Description="USERNAME" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
-  <Config Name="PASSWORD" Target="PASSWORD" Default="" Mode="" Description="PASSWORD" Type="Variable" Display="advanced" Required="true" Mask="true">100</Config>
+  <Config Name="Username" Target="USERNAME" Default="" Mode="" Description="The first of the 2 outages.io credentials" Type="Variable" Display="always" Required="true" Mask="false">6x1T8uNLDy</Config>
+  <Config Name="Password" Target="PASSWORD" Default="" Mode="" Description="The second of the outages.io credentials" Type="Variable" Display="always" Required="true" Mask="false">ElFWMfKRjdCiu3A0mLBorxOk24zPHwXQJZ6g8bGh</Config>
 </Container>
