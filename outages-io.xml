@@ -8,7 +8,7 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project>https://www.outagesio.com<Project/>
+  <Project/>
   <Overview>Software that monitors the Internet service with alerts, facts and proof of connection issues causing downtime and slow speeds.</Overview>
   <Category/>
   <WebUI/>
