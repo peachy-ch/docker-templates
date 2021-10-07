@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>outages.io</Name>
+  <Repository>peachych/outagesio</Repository>
+  <Registry>https://hub.docker.com/r/peachych/outagesio</Registry>
+  <Network>br0</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>Software that monitors the Internet service with alerts, facts and proof of connection issues causing downtime and slow speeds.</Overview>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://www.outagesio.com/wp-content/uploads/2021/07/outagesIOcom-03-logo-1.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1633542195</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Our free software monitors the Internet service with alerts, facts and proof of connection issues causing downtime and slow speeds.</Description>
+  <Networking>
+    <Mode>br0</Mode>
+    <Publish/>
+  </Networking>
+  <Data/>
+  <Environment>
+    <Variable>
+      <Value></Value>
+      <Name>USERNAME</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value></Value>
+      <Name>PASSWORD</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="Username" Target="USERNAME" Default="" Mode="" Description="The first of the outages.io credentials" Type="Variable" Display="always" Required="true" Mask="false">6x1T8uNLDy</Config>
+  <Config Name="Password" Target="PASSWORD" Default="" Mode="" Description="The second of the outages.io credentials" Type="Variable" Display="always" Required="true" Mask="false">ElFWMfKRjdCiu3A0mLBorxOk24zPHwXQJZ6g8bGh</Config>
+</Container>
